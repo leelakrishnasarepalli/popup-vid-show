@@ -11,10 +11,10 @@ const Index = () => {
       {/* Fun Header */}
       <header className="bg-gradient-to-r from-kid-red via-kid-yellow to-kid-blue py-8 text-center">
         <h1 className="text-4xl font-bold text-white drop-shadow-lg md:text-5xl lg:text-6xl">
-          🎬 Fun Videos! 🎉
+          🎬 Mandarin Videos! 🎉
         </h1>
         <p className="mt-2 text-lg text-white/90 md:text-xl">
-          Click on a video to watch!
+          Pardhu, click on a video to watch!
         </p>
       </header>
 
