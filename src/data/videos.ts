@@ -10,11 +10,11 @@ export const getYouTubeThumbnail = (youtubeId: string) =>
 
 // Sample kid-friendly videos - replace these with your own YouTube IDs
 export const videos: Video[] = [
-  { id: "1", title: "Chinese New Year Greetings", youtubeId: "58wGkgBKNoA" },
-  { id: "2", title: "Chinese Pinyin Song", youtubeId: "j9UeXv4G_58" },
-  { id: "3", title: "Holidays", youtubeId: "I2tUfWWYOkU" },
-  { id: "4", title: "Best Free Chinese Mandarin Audiobooks for Kids", youtubeId: "HuMWPgvroEY" },
-  { id: "5", title: "Dance", youtubeId: "6FrsoDTtlpU" },
+  { id: "1", title: "Mandarin Chinese Tongue Twister Four and Ten", youtubeId: "mBzAyXbBQTQ" },
+  { id: "2", title: "zh, ch, sh, r Song", youtubeId: "3wkivv6BTCw" },
+  { id: "3", title: "zh ch sh r", youtubeId: "tXuGGYbtAm8" },
+  { id: "4", title: "Story", youtubeId: "2hT56qsraZY" },
+  { id: "5", title: "The Secret of Red Envelopes", youtubeId: "iMqMuQAprDU" },
   { id: "6", title: "Chinese Pinyin Song", youtubeId: "v0SJi73CY4U" },
   { id: "7", title: "Learn Mandarin", youtubeId: "nsQJrkWR-fw" },
   { id: "8", title: "how to celebrate Chinese new year and things to do", youtubeId: "15_G7_Xgpio" },
@@ -35,4 +35,9 @@ export const videos: Video[] = [
   { id: "23", title: "Mandarin Chinese Song for kids", youtubeId: "g2eCLSrQEHo" },
   { id: "24", title: "Tones Song ", youtubeId: "ORpsNpxmfOc" },
   { id: "25", title: "Mandarin Chinese Song for kids", youtubeId: "r0pUOS09-JE" },
+  { id: "26", title: "Chinese New Year Greetings", youtubeId: "58wGkgBKNoA" },
+  { id: "27", title: "Chinese Pinyin Song", youtubeId: "j9UeXv4G_58" },
+  { id: "28", title: "Holidays", youtubeId: "I2tUfWWYOkU" },
+  { id: "29", title: "Best Free Chinese Mandarin Audiobooks for Kids", youtubeId: "HuMWPgvroEY" },
+  { id: "30", title: "Dance", youtubeId: "6FrsoDTtlpU" },
 ];
