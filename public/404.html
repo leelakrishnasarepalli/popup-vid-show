@@ -4,9 +4,13 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script>
-      // Redirect to index.html for SPA routing
+      // Redirect to index.html for SPA routing (works for /repo and /repo/ and /repo/any/path)
       sessionStorage.redirect = location.href;
-      location.replace(location.pathname.split('/').slice(0, -1).join('/') + '/index.html');
+      var pathname = location.pathname;
+      var base = pathname.split('/').slice(0, -1).join('/');
+      if (!base) base = pathname.replace(/\/$/, '') || '/';
+      var indexUrl = (base === '/' ? '' : base) + '/index.html';
+      location.replace(indexUrl);
     </script>
   </head>
   <body>
